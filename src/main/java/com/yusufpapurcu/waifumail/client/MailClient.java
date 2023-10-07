@@ -11,10 +11,7 @@ import java.net.URL;
 import java.util.Properties;
 
 public class MailClient {
-    public static void sendMail(URL waifuImage, int width, int height) throws MessagingException{
-
-        // Recipient's email ID needs to be mentioned.
-        String to = "yusufpapurcu@gmail.com";
+    public static void sendMail(URL waifuImage,String to, int width, int height) throws MessagingException{
 
         // Sender's email ID needs to be mentioned
         String from = "yusufturhanp@gmail.com";
